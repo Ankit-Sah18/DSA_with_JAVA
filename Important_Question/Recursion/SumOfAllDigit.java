@@ -1,4 +1,4 @@
-package Interview_Question.Recursion;
+package Important_Question.Recursion;
 
 public class SumOfAllDigit {
 

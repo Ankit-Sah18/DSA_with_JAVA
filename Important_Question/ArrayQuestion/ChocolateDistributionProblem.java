@@ -15,7 +15,7 @@
 // Input : arr[] = {3, 4, 1, 9, 56, 7, 9, 12} , m = 5 
 // Output: Minimum Difference is 6 
 
-package Interview_Question.ArrayQuestion;
+package Important_Question.ArrayQuestion;
 
 import java.util.Arrays;
 

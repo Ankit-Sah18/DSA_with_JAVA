@@ -1,4 +1,4 @@
-package Interview_Question.ArrayQuestion;
+package Important_Question.ArrayQuestion;
 
 public class MaximumSubArray {
 

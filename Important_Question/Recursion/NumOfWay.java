@@ -1,4 +1,4 @@
-package Interview_Question.Recursion;
+package Important_Question.Recursion;
 
 // juli take step 1, 2 or 3 at a time 
 

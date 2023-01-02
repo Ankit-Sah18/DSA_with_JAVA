@@ -47,7 +47,7 @@ public class HappyNumber{
       }
 
 
-      public static void main(String[] args) {
+      public static void main(String[] args) { 
         
          boolean x= happyNumber(2);
          System.out.println(x);

@@ -1,4 +1,4 @@
-package Interview_Question;
+package Important_Question;
 
 import java.text.BreakIterator;
 import java.util.HashMap;

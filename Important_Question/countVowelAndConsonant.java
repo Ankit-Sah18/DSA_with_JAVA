@@ -1,4 +1,4 @@
-package Interview_Question;
+package Important_Question;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

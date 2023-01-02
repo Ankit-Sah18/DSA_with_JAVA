@@ -1,4 +1,4 @@
-package Interview_Question.PracticeDSA;
+package Important_Question.PracticeDSA;
 
 import java.util.Arrays;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package Interview_Question;
+package Important_Question;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
