@@ -24,24 +24,39 @@ public class GoodPairs {
            int count=0;
         //    Arrays.sort(arr);
 
-           int left=0;
-           int right=left+1;
+        //    int left=0;
+        //    int right=left+1;
 
-           while(left<arr.length-1)
-           {
-               if(arr[left]==arr[right])
-               {
-                  count++;
+        //    while(left<arr.length-1)
+        //    {
+        //        if(arr[left]==arr[right])
+        //        {
+        //           System.out.println(arr[left]+","+arr[right]);
+        //           count++;
                  
-               }
-               right++;
-                if(right==arr.length)
-               {
-                   left++;
-                   right=left+1;
-               }
+        //        }
+        //        right++;
+        //         if(right==arr.length)
+        //        {
+        //            left++;
+        //            right=left+1;
+        //        }
                
-           }
+        //    }
+
+        // using loop
+
+          for(int i=0;i<arr.length;i++)
+          {
+              for(int j=i+1;j<arr.length;j++)
+              {
+                  if(arr[j]==arr[i])
+                  {
+                    System.out.println(arr[i]+","+arr[j]);
+                    count++;
+                  }
+              }
+          }
 
            System.out.println(count);
 
