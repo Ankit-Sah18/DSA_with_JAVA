@@ -46,6 +46,9 @@ public class sortPeople {
         String[] names={"Juli","poonam","Vinit"};
         int[]height={180,165,170};
     
+        byte[] bytes = {100,101,102};
+        String str =new String(bytes);
+        System.out.println(str);
          System.out.println(SortPeople(names,height)); 
     }
 

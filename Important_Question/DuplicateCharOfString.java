@@ -3,6 +3,7 @@ package Important_Question;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Set;
+import java.util.TreeMap;
 
 
 public class DuplicateCharOfString {
@@ -34,7 +35,7 @@ public class DuplicateCharOfString {
            
         // }
 
-        HashMap<Character, Integer> map= new HashMap<>();
+        TreeMap<Character, Integer> map= new TreeMap<>();
 
         for(int i=0;i<str.length();i++)
         {
@@ -52,7 +53,7 @@ public class DuplicateCharOfString {
 
          for(Character key :keys)
          {
-            if(map.get(key)>1)
+            if(map.get(key)==1)
             {
                 System.out.println(key);
             }
@@ -64,7 +65,7 @@ public class DuplicateCharOfString {
         
     public static void main(String[] args) {
         
-       String str= "AnkitSahai";
+       String str= "Ankitsahai";
 
     //    System.out.println(str.length()-1);
 
